@@ -27,7 +27,7 @@ public class Questions21 {
 		default: System.out.println("LÜTFEN 1 İLE 7 ARASINDA BİR SAYI GİR");
 		}
 		
-		
+		sc.close();
 		
 		
 	}

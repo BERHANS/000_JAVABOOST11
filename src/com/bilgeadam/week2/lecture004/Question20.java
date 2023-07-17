@@ -13,7 +13,7 @@ public class Question20 {
 	
 	System.out.print("sayı gir");
 	int sayı= sc.nextInt();
-
+int i =0;
 	boolean kontrol =true;
 	if(sayı==1) {
 		System.out.println("sayı5 in kuvveti");
@@ -23,9 +23,10 @@ public class Question20 {
 		kontrol=false;
 	}while(kontrol) {
 		if(sayı%5==0) {
+		i++;
 			sayı/=5;
 			if(sayı==1) {
-				System.out.println("sayı 5 in kuvveti");
+				System.out.println("sayı 5 in kuvveti" + i);
 				kontrol=false;
 			}
 			}else {
