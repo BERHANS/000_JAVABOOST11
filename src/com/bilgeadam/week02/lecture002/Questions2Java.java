@@ -1,4 +1,4 @@
-package com.bilgeadam.week2.lecture002;
+package com.bilgeadam.week02.lecture002;
 
 public class Questions2Java {
 	/*

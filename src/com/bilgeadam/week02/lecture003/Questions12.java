@@ -1,4 +1,4 @@
-package com.bilgeadam.week2.lecture003;
+package com.bilgeadam.week02.lecture003;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Questions12 {
 			sayı /=10;
 			sayaç++;
 		}while(sayı!=0);
-			System.out.println("Basamaklar toplamı:   " + toplam + "\n basamak sayısı" + sayaç);
+			System.out.println("Basamaklar toplamı:   " + toplam + "\n basamak sayısı " + sayaç);
 			
 			sc.close();
 			
@@ -34,6 +34,6 @@ public class Questions12 {
 		
 		
 		
-	}
+	
 
 }

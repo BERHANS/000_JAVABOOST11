@@ -1,4 +1,4 @@
-package com.bilgeadam.week2.lecture002;
+package com.bilgeadam.week02.lecture002;
 
 import java.util.Scanner;
 
@@ -12,9 +12,11 @@ public class Questions8Java {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Sayıyı gir:  ");
 		int sayı = sc.nextInt();
-			
-			for (int i = 1; i <=10; i++);{
-				int çarpım = sayı*i ;
+			int çarpım = 1;
+			for (int i=1; i <=sayı; i++){
+
+				çarpım = çarpım*i;
+				
 		}
 		System.out.println(çarpım);
 

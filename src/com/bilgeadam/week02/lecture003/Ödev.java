@@ -1,4 +1,4 @@
-package com.bilgeadam.week2.lecture003;
+package com.bilgeadam.week02.lecture003;
 
 public class Ödev {
 public static void main(String[] args) {
